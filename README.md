@@ -1,17 +1,15 @@
 # openclash-wdr3500
 install openclash di wdr3500
 
-download disini
+copy paste code ini:
+
+wget https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/install.sh
+chmod +x install.sh
+ash install.sh
+
+
+Ref:
 https://github.com/frainzy1477/luci-app-clash
-
-wget -P /tmp/ https://github.com/frainzy1477/luci-app-clash/releases/download/v1.7.5.7/luci-app-clash_v1.7.5.7_all.ipk
-cd /tmp
-
-opkg update && opkg install luci-app-clash_v1.7.5.7_all.ipk
-
-wget -O /tmp/ https://github.com/frainzy1477/clash_dev/releases/download/v1.1.0/clash-linux-mips-softfloat.gz
-opkg update && opkg install gzip
-cd /tmp/
-gunzip clash-linux-mips-softfloat.gz
-
+https://github.com/Dreamacro/clash
+https://github.com/Kr328/clash-premium-installer
 
