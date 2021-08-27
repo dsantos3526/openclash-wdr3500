@@ -5,13 +5,9 @@ copy paste code ini:
 
 wget https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/install.sh && chmod +x install.sh
 ash install.sh
-
 or
-
 wget https://bit.ly/2WyFLRa && chmod +x install.sh
 ash install.sh
-
-
 
 Ref:
 https://github.com/frainzy1477/luci-app-clash
