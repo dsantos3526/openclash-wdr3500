@@ -20,3 +20,4 @@ cd /etc/clash/dtun/
 gunzip clash-linux-mips-softfloat-20210310
 chmod +x clash-linux-mips-softfloat-20210310
 mv clash-linux-mips-softfloat-20210310 /etc/clash/dtun/clash
+
