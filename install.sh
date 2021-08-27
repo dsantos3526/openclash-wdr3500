@@ -1,7 +1,7 @@
 #!/bin/ash
-wget -P /tmp/ https://github.com/frainzy1477/luci-app-clash/releases/download/v1.7.5.7/luci-app-clash_v1.7.5.7_all.ipk
-
-cd /tmp
+echo"Download Luci-app-Clash"
+wget https://github.com/frainzy1477/luci-app-clash/releases/download/v1.7.5.7/luci-app-clash_v1.7.5.7_all.ipk
+echo "download Done----------------------------------------------------------------------------------------------------------------------------------------------------------"
 opkg update && opkg install luci-app-clash_v1.7.5.7_all.ipk
 wget -O /etc/clash/clash https://github.com/frainzy1477/clash_dev/releases/download/v1.1.0/clash-linux-mips-softfloat.gz 
 opkg update && opkg install gzip 
