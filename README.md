@@ -10,12 +10,12 @@ opkg install libustream-openssl
 
 copy paste code ini:
 ```javascript
-wget https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/install.sh && chmod +x install.sh
+wget https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/install.sh -O install.sh && chmod +x install.sh
 ash install.sh
 ```
 or
 ```javascript
-wget https://bit.ly/2WyFLRa && chmod +x install.sh
+wget https://bit.ly/2WyFLRa -O install.sh && chmod +x install.sh
 ash install.sh
 ```
 
