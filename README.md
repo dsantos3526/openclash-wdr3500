@@ -1,6 +1,13 @@
 # openclash-wdr3500
 install openclash di wdr3500
 
+```javascript
+opkg update
+opkg install wget
+opkg install ca-certificates
+opkg install libustream-openssl
+```
+
 copy paste code ini:
 ```javascript
 wget https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/install.sh && chmod +x install.sh
