@@ -8,6 +8,25 @@ opkg install ca-certificates
 opkg install libustream-openssl
 ```
 
+Depedencies
+```
+opkg install bash
+opkg install coreutils
+opkg install coreutils-nohup
+opkg install coreutils-base64
+opkg install ipset
+opkg install iptables
+opkg install luci
+opkg install luci-base
+opkg install wget
+opkg install libustream-openssl
+opkg install curl
+opkg install jsonfilter
+opkg install ca-certificates
+opkg install iptables-mod-tproxy
+opkg install kmod-tun
+```
+
 copy paste code ini:
 ```javascript
 wget https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/install.sh -O install.sh && chmod +x install.sh
