@@ -25,7 +25,7 @@ chmod +x clash-linux-mips-softfloat-20210310
 mv clash-linux-mips-softfloat-20210310 /etc/clash/clashtun/clash
 
 echo "--------------------------------------------------------------------Download dtun (premium core)--------------------------------------------------------------------"
-wget -O /etc/clash/dtun/clash-linux-mips-softfloat-20210310.gz https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/clash-linux-mips-softfloat-2021.09.15.gz
+wget -O /etc/clash/dtun/clash-linux-mips-softfloat-2021.09.15.gz https://raw.githubusercontent.com/dsantos3526/openclash-wdr3500/main/clash-linux-mips-softfloat-2021.09.15.gz
 cd /etc/clash/dtun/
 gunzip clash-linux-mips-softfloat-2021.09.15.gz
 chmod +x clash-linux-mips-softfloat-2021.09.15
